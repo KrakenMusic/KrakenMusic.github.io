@@ -1,0 +1,64 @@
+body {
+    background-color: #37474F;
+	font-family: sans-serif;
+	color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #0077B2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #000000;
+	
+}
+
+#logo {
+	text-align: center;
+}
+
+#link {
+	text-align: center;
+}
+
+#text {
+	text-align: center;
+	color: #00AAFF;
+}
+
+#vans {
+	text-align: center;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	color: #00AAFF;
+}
+
+h2 {
+	text-align: center;
+	color: red;
+	font-size: 400%
+	background-color: red;
+}
